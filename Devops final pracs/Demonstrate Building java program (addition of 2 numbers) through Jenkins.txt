@@ -1,0 +1,8 @@
+Demonstrate Building java program (addition of 2 numbers) through Jenkins
+ans. create a program and save it in the java bin folder
+create a free style project in jenkins
+click on the advance setting and 
+add the java bin folder path in the use custom workspace(C:\Program Files\Java\jdk-11.0.16.1\bin)
+click on execute batch command and enter the command to run java
+javac addition.java
+java addition
